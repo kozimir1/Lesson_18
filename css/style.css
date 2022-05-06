@@ -927,7 +927,7 @@ body {
 }
 
 .rating::before {
-  content: "✩✩✩✩✩";
+  content: "☆☆☆☆☆";
   display: block;
 }
 
@@ -977,7 +977,7 @@ body {
 }
 
 .rating__label::before {
-  content: "✩";
+  content: "☆";
   -webkit-transition: color 0.2s ease 0s, content 0.2s ease 0s;
   -o-transition: color 0.2s ease 0s, content 0.2s ease 0s;
   transition: color 0.2s ease 0s, content 0.2s ease 0s;

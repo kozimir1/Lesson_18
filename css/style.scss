@@ -694,7 +694,7 @@ body {
 	position: relative;
 	display: inline-block;
 	&::before {
-		content: "✩✩✩✩✩";
+		content: "☆☆☆☆☆";
 		display: block;
 	}
 	// .rating__items
@@ -738,7 +738,7 @@ body {
 		cursor: pointer;
 		color: #4d4d4d;
 		&::before {
-			content: "✩";
+			content: "☆";
 			transition: color 0.2s ease 0s, content 0.2s ease 0s;
 			display: block;
 		}
