@@ -1293,6 +1293,13 @@ body {
   line-height: 2.5;
 }
 
+@media (max-width: 350px) {
+  .news {
+    -webkit-column-gap: 15px;
+            column-gap: 15px;
+  }
+}
+
 .recipes__item_color:hover .news {
   color: #1a1a1a;
 }
@@ -1300,6 +1307,12 @@ body {
 .news__watching {
   padding: 0px 0px 0px 37px;
   position: relative;
+}
+
+@media (max-width: 350px) {
+  .news__watching {
+    padding: 0px 0px 0px 30px;
+  }
 }
 
 .news__watching::before {
@@ -1319,6 +1332,12 @@ body {
 .news__message {
   padding: 0px 0px 0px 37px;
   position: relative;
+}
+
+@media (max-width: 350px) {
+  .news__message {
+    padding: 0px 0px 0px 30px;
+  }
 }
 
 .news__message::before {
@@ -1352,7 +1371,7 @@ body {
 
 @media (max-width: 479px) {
   .item-recipes {
-    padding: 15px 0px 15px;
+    padding: 15px 5px 15px;
   }
 }
 

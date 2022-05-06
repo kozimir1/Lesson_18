@@ -996,12 +996,18 @@ body {
 	column-gap: 24px;
 	font-size: 12px;
 	line-height: 2.5;
+	@media (max-width: 350px) {
+		column-gap: 15px;
+	}
 	.recipes__item_color:hover & {
 		color: #1a1a1a;
 	}
 
 	&__watching {
 		padding: 0px 0px 0px 37px;
+		@media (max-width: 350px) {
+			padding: 0px 0px 0px 30px;
+		}
 		position: relative;
 		&::before {
 			content: "";
@@ -1021,6 +1027,9 @@ body {
 
 	&__message {
 		padding: 0px 0px 0px 37px;
+		@media (max-width: 350px) {
+			padding: 0px 0px 0px 30px;
+		}
 		position: relative;
 		&::before {
 			content: "";
@@ -1046,7 +1055,7 @@ body {
 	padding: 30px 30px 25px;
 	color: $wColor;
 	@media (max-width: 479px) {
-		padding: 15px 0px 15px;
+		padding: 15px 5px 15px;
 	}
 	// .item-recipes__text
 
