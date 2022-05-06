@@ -1293,6 +1293,10 @@ body {
   line-height: 2.5;
 }
 
+.recipes__item_color:hover .news {
+  color: #1a1a1a;
+}
+
 .news__watching {
   padding: 0px 0px 0px 37px;
   position: relative;

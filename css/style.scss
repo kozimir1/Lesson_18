@@ -996,6 +996,9 @@ body {
 	column-gap: 24px;
 	font-size: 12px;
 	line-height: 2.5;
+	.recipes__item_color:hover & {
+		color: #1a1a1a;
+	}
 
 	&__watching {
 		padding: 0px 0px 0px 37px;
